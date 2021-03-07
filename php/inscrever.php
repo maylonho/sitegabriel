@@ -29,7 +29,7 @@ $envio = mail($para, $assunto, $mensagem, $headers);  //função que faz o envio
 if($envio){
     echo ("<SCRIPT LANGUAGE='JavaScript'>
     window.alert('Mensagem enviada com sucesso')
-    window.location.href='https://paginadelocalizacao';
+    window.location.href='../obrigado.html';
     </SCRIPT>");
 }else{
     echo "A mensagem não pode ser enviada";
